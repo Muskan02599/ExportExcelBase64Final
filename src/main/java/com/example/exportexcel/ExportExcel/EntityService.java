@@ -66,7 +66,6 @@ public class EntityService {
         if (statement instanceof Select) {
             Select selectStatement = (Select) statement;
 
-            // You can add more validation logic here if needed
             return true;
         } else {
             System.out.println("Invalid query! Only SELECT queries are allowed.");
